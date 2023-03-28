@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Eczar&display=swap");
+
+@media (min-width: 0px) {
+  p,
+  span {
+    font-size: 0.9rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  h1 {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  .lien-header,
+  .lien-header:visited {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 448px) {
+  .background-form-mini {
+    background-color: #161c2d;
+  }
+}
+@media (min-width: 768px) {
+  p,
+  span {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h1 {
+    font-size: 1.6rem;
+  }
+  .lien-header,
+  .lien-header:visited {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    height: 800px;
+  }
+  p,
+  span {
+    font-size: 1.2rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .lien-header,
+  .lien-header:visited {
+    font-size: 2rem;
+  }
+}
+.background-form-mini {
+  color: white;
+}
+
+p,
+span,
+h2 {
+  font-family: "Eczar", cursive;
+}
+/* Couleurs */
+.rhythm-bg {
+  background-color: #847996ff;
+}
+.burnt-sienna-bg {
+  background-color: #dd6e42ff;
+}
+.burnt-sienna {
+  color: #dd6e42ff;
+}
+.forest-green-crayola {
+  color: #4f9d69ff;
+}
+.arrondi-10 {
+  border-radius: 10px;
+}
+.img-centrale {
+  border: 10px solid #847996ff;
+  box-shadow: -40px 40px rgba(0, 0, 0, 0.1);
+}
+.img-footer {
+  border: 5px solid #dd6e42ff;
+  margin-top: -25px;
+}
+.icone-facebook {
+  font-size: 2rem;
+  color: #4267b2;
+}
+.icone-twitter {
+  font-size: 2rem;
+  color: #1da1f2;
+}
+.icone-insta {
+  font-size: 2rem;
+  color: #8a3ab9;
+}
+.icone-globe {
+  font-size: 5rem;
+  color: #5680d4;
+  vertical-align: middle;
+}
+
+.lien-header,
+.lien-header:visited {
+  color: #dd6e42ff;
+  font-family: "Eczar", cursive;
+}
+
+.lien-header:hover,
+.lien-header:focus,
+.lien-header:active {
+  text-decoration: none;
+  color: #847996ff;
+}
+.contact {
+  padding-top: 20px;
+  color: #161c2d;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+input:focus {
+  outline: none;
+}
+input {
+  border: none;
+  padding-left: 10px;
+}
+input::placeholder {
+  color: #ffffff;
+  opacity: 0.7;
+}
+li {
+  list-style-type: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+  color: #dd6e42ff;
+}
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: #847996ff;
+}
+/* Path: css\style.css */
